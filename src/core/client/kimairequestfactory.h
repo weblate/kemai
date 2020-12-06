@@ -11,9 +11,9 @@ public:
     static KimaiRequest me(); // me as user
     static KimaiRequest customers();
     static KimaiRequest customerAdd(const Customer& customer);
-    static KimaiRequest projects(int customerId);
+    static KimaiRequest projects();
     static KimaiRequest projectAdd(const Project& project);
-    static KimaiRequest activities(int projectId);
+    static KimaiRequest activities();
     static KimaiRequest activityAdd(const Activity& activity);
     static KimaiRequest activeTimeSheets();
     static KimaiRequest startTimeSheet(int projectId, int activityId, const QDateTime& beginAt,

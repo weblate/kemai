@@ -29,11 +29,9 @@ KimaiRequest KimaiRequestFactory::customerAdd(const Customer& customer)
     return std::move(krq);
 }
 
-KimaiRequest KimaiRequestFactory::projects(int customerId)
+KimaiRequest KimaiRequestFactory::projects()
 {
-    auto krq = KimaiRequest(ApiMethod::Projects);
-    krq.setParameters({{"customer", QString::number(customerId)}});
-    return std::move(krq);
+    return std::move(KimaiRequest(ApiMethod::Projects));
 }
 
 KimaiRequest KimaiRequestFactory::projectAdd(const Project& project)
@@ -46,11 +44,9 @@ KimaiRequest KimaiRequestFactory::projectAdd(const Project& project)
     return std::move(krq);
 }
 
-KimaiRequest KimaiRequestFactory::activities(int projectId)
+KimaiRequest KimaiRequestFactory::activities()
 {
-    auto krq = KimaiRequest(ApiMethod::Activities);
-    krq.setParameters({{"project", QString::number(projectId)}});
-    return std::move(krq);
+    return std::move(KimaiRequest(ApiMethod::Activities));
 }
 
 KimaiRequest KimaiRequestFactory::activityAdd(const Activity& activity)

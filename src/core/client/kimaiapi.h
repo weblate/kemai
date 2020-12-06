@@ -3,6 +3,7 @@
 #include <optional>
 
 #include <QDateTime>
+#include <QMetaType>
 #include <QString>
 #include <QVector>
 
@@ -115,3 +116,6 @@ struct User
 QString apiMethodToString(ApiMethod method);
 
 } // namespace kemai::client
+
+// QVariant declarations
+Q_DECLARE_METATYPE(kemai::client::Customer)

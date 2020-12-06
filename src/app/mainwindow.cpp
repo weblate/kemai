@@ -26,7 +26,9 @@ using namespace kemai::client;
 using namespace kemai::core;
 using namespace kemai::updater;
 
-MainWindow::MainWindow() : QMainWindow(), mUi(new Ui::MainWindow)
+MainWindow::MainWindow()
+    : QMainWindow(), mUi(new Ui::MainWindow), mActivityController(mClient), mCustomerController(mClient),
+      mProjectController(mClient), mTagController(mClient)
 {
     mUi->setupUi(this);
 
@@ -101,6 +103,9 @@ MainWindow::MainWindow() : QMainWindow(), mUi(new Ui::MainWindow)
     /*
      * Connections
      */
+    connect(&mClient, &KimaiClient::requestError, this, &MainWindow::onClientError);
+    connect(&mClient, &KimaiClient::replyReceived, this, &MainWindow::onClientReply);
+
     connect(mUi->stackedWidget, &QStackedWidget::currentChanged, this, &MainWindow::onStackedCurrentChanged);
     connect(mActSettings, &QAction::triggered, this, &MainWindow::onActionSettingsTriggered);
     connect(mActQuit, &QAction::triggered, qApp, &QCoreApplication::quit);
@@ -147,16 +152,10 @@ void MainWindow::closeEvent(QCloseEvent* event)
 
 void MainWindow::refreshClient()
 {
-    mClient = helpers::createClient();
-    if (mClient)
-    {
-        connect(mClient.data(), &KimaiClient::requestError, this, &MainWindow::onClientError);
-        connect(mClient.data(), &KimaiClient::replyReceived, this, &MainWindow::onClientReply);
-    }
-
-    mActNewCustomer->setEnabled(mClient != nullptr);
-    mActNewProject->setEnabled(mClient != nullptr);
-    mActNewActivity->setEnabled(mClient != nullptr);
+    const auto& settings = Settings::load();
+    mClient.setHost(settings.kimai.host);
+    mClient.setUsername(settings.kimai.username);
+    mClient.setToken(settings.kimai.token);
 }
 
 void MainWindow::onClientError(const QString& errorMsg)
@@ -183,7 +182,7 @@ void MainWindow::onActionNewCustomerTriggered()
     if (dialog.exec() == QDialog::Accepted)
     {
         const auto& customer = dialog.customer();
-        mClient->sendRequest(KimaiRequestFactory::customerAdd(customer));
+        mClient.sendRequest(KimaiRequestFactory::customerAdd(customer));
     }
 }
 
@@ -193,7 +192,7 @@ void MainWindow::onActionNewProjectTriggered()
     if (dialog.exec() == QDialog::Accepted)
     {
         const auto& project = dialog.project();
-        mClient->sendRequest(KimaiRequestFactory::projectAdd(project));
+        mClient.sendRequest(KimaiRequestFactory::projectAdd(project));
     }
 }
 
@@ -203,7 +202,7 @@ void MainWindow::onActionNewActivityTriggered()
     if (dialog.exec() == QDialog::Accepted)
     {
         const auto& activity = dialog.activity();
-        mClient->sendRequest(KimaiRequestFactory::activityAdd(activity));
+        mClient.sendRequest(KimaiRequestFactory::activityAdd(activity));
     }
 }
 

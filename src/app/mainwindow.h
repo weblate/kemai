@@ -5,6 +5,10 @@
 #include <QSystemTrayIcon>
 
 #include "client/kimaiclient.h"
+#include "controller/activitiecontroller.h"
+#include "controller/customercontroller.h"
+#include "controller/projectcontroller.h"
+#include "controller/tagcontroller.h"
 #include "updater/kemaiupdater.h"
 
 namespace Ui {
@@ -41,8 +45,14 @@ private slots:
 
 private:
     Ui::MainWindow* mUi;
-    QSharedPointer<client::KimaiClient> mClient;
     updater::KemaiUpdater mUpdater;
+
+    // Kimai context
+    client::KimaiClient mClient;
+    controller::ActivityController mActivityController;
+    controller::CustomerController mCustomerController;
+    controller::ProjectController mProjectController;
+    controller::TagController mTagController;
 
     // keep stacked widgets ids
     int mActivitySId;
