@@ -6,22 +6,22 @@
     <message>
         <location filename="../../gui/aboutDialog.ui" line="14"/>
         <source>About Kemai</source>
-        <translation type="unfinished"></translation>
+        <translation>Circa Kemai</translation>
     </message>
     <message>
         <location filename="../../gui/aboutDialog.ui" line="81"/>
         <source>Kemai</source>
-        <translation type="unfinished"></translation>
+        <translation>Kemai</translation>
     </message>
     <message>
         <location filename="../../gui/aboutDialog.ui" line="88"/>
         <source>Desktop client for Kimai</source>
-        <translation type="unfinished"></translation>
+        <translation>Client Desktop per Kimai</translation>
     </message>
     <message>
         <location filename="../../gui/aboutDialog.ui" line="109"/>
         <source>Proudly using:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizzato con orgoglio:</translation>
     </message>
 </context>
 <context>
@@ -69,7 +69,7 @@
         <location filename="../../gui/activityWidget.ui" line="112"/>
         <location filename="../../gui/activityWidget.ui" line="162"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../../gui/activityWidget.ui" line="81"/>
@@ -89,7 +89,7 @@
     <message>
         <location filename="../../gui/activityWidget.ui" line="185"/>
         <source>Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Etichette</translation>
     </message>
     <message>
         <location filename="../../gui/activityWidget.ui" line="224"/>
@@ -99,12 +99,12 @@
     <message>
         <location filename="../../gui/activityWidget.ui" line="271"/>
         <source>00:00:00</source>
-        <translation type="unfinished">00:00:00</translation>
+        <translation>00:00:00</translation>
     </message>
     <message>
         <location filename="../../gui/activityWidget.ui" line="284"/>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>Cronologia</translation>
     </message>
 </context>
 <context>
@@ -142,12 +142,12 @@
     <message>
         <location filename="../../gui/customerDialog.ui" line="103"/>
         <source>Budget</source>
-        <translation type="unfinished">Budget</translation>
+        <translation>Budget</translation>
     </message>
     <message>
         <location filename="../../gui/customerDialog.ui" line="126"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
 </context>
 <context>
@@ -155,17 +155,17 @@
     <message>
         <location filename="../../gui/loggerWidget.ui" line="14"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log</translation>
     </message>
     <message>
         <location filename="../../gui/loggerWidget.ui" line="25"/>
         <source>Log file path</source>
-        <translation type="unfinished"></translation>
+        <translation>Percorso Log</translation>
     </message>
     <message>
         <location filename="../../gui/loggerWidget.ui" line="39"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -173,7 +173,7 @@
     <message>
         <location filename="../../gui/mainWindow.ui" line="14"/>
         <source>Kemai - Kimai client</source>
-        <translation type="unfinished"></translation>
+        <translation>Kemai - Kimai client</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.ui" line="48"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../../gui/projectDialog.ui" line="32"/>
         <source>Budget</source>
-        <translation type="unfinished">Budget</translation>
+        <translation>Budget</translation>
     </message>
     <message>
         <location filename="../../gui/projectDialog.ui" line="68"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../../gui/projectDialog.ui" line="75"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
 </context>
 <context>
@@ -216,7 +216,8 @@
         <location filename="../../client/kimaiClient_p.h" line="106"/>
         <source>Error on request [%1]: %2
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore nella richiesta [%1]: %2
+%3</translation>
     </message>
 </context>
 <context>
@@ -234,7 +235,7 @@
     <message>
         <location filename="../../gui/settingsDialog.ui" line="46"/>
         <source>Events</source>
-        <translation type="unfinished"></translation>
+        <translation>Eventi</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="51"/>
@@ -244,12 +245,12 @@
     <message>
         <location filename="../../gui/settingsDialog.ui" line="66"/>
         <source>Close to system tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Chiudi nella barra delle applicazioni</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="73"/>
         <source>Minimize to system tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Riduci nella barra delle applicazioni</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="80"/>
@@ -259,32 +260,32 @@
     <message>
         <location filename="../../gui/settingsDialog.ui" line="90"/>
         <source>Check update at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlla aggiornamenti all&apos;avvio</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="104"/>
         <source>Stop current timesheet on session lock (windows only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferma la registrazione corrente al blocco della sessione (solo windows)</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="114"/>
         <source>Stop current timesheet when system idle</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferma la registrazione corrente quando il sistema risulta inattivo</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="124"/>
         <source>Idle delay (minutes)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritardo inattività (minuti)</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="164"/>
         <source>Refresh delay (secs)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritardo d&apos;aggiornamento (secondi)</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="201"/>
         <source>Auto-refresh current timesheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiorna automaticamente registrazione attuale</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="273"/>
@@ -294,7 +295,7 @@
     <message>
         <location filename="../../gui/settingsDialog.ui" line="293"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="310"/>
@@ -304,12 +305,12 @@
     <message>
         <location filename="../../gui/settingsDialog.ui" line="324"/>
         <source>Token</source>
-        <translation type="unfinished"></translation>
+        <translation>Token</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.ui" line="365"/>
         <source>Test</source>
-        <translation type="unfinished"></translation>
+        <translation>Test</translation>
     </message>
 </context>
 <context>
@@ -317,7 +318,7 @@
     <message>
         <location filename="../../gui/taskWidget.ui" line="14"/>
         <source>TaskWidget</source>
-        <translation type="unfinished"></translation>
+        <translation>Widget</translation>
     </message>
     <message>
         <location filename="../../gui/taskWidget.ui" line="25"/>
@@ -327,7 +328,7 @@
     <message>
         <location filename="../../gui/taskWidget.ui" line="35"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../../gui/taskWidget.ui" line="63"/>
@@ -345,27 +346,27 @@
     <message>
         <location filename="../../gui/timeSheetListWidgetItem.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Finestra</translation>
     </message>
     <message>
         <location filename="../../gui/timeSheetListWidgetItem.ui" line="75"/>
         <source>Activity</source>
-        <translation type="unfinished">Attività</translation>
+        <translation>Attività</translation>
     </message>
     <message>
         <location filename="../../gui/timeSheetListWidgetItem.ui" line="129"/>
         <source>Description</source>
-        <translation type="unfinished">Descrizione</translation>
+        <translation>Descrizione</translation>
     </message>
     <message>
         <location filename="../../gui/timeSheetListWidgetItem.ui" line="141"/>
         <source>StartedAt</source>
-        <translation type="unfinished"></translation>
+        <translation>Da</translation>
     </message>
     <message>
         <location filename="../../gui/timeSheetListWidgetItem.ui" line="161"/>
         <source>duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Durata</translation>
     </message>
 </context>
 <context>
@@ -373,17 +374,17 @@
     <message>
         <location filename="../../models/loggerTreeModel.cpp" line="115"/>
         <source>Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Livello</translation>
     </message>
     <message>
         <location filename="../../models/loggerTreeModel.cpp" line="118"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location filename="../../models/loggerTreeModel.cpp" line="121"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Messaggio</translation>
     </message>
 </context>
 <context>
@@ -391,100 +392,102 @@
     <message>
         <location filename="../../gui/mainWindow.cpp" line="44"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished">&amp;Esci</translation>
+        <translation>&amp;Esci</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="45"/>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Impostazioni</translation>
+        <translation>&amp;Impostazioni</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="46"/>
         <source>Check for updates...</source>
-        <translation type="unfinished">Controllo aggiornamenti...</translation>
+        <translation>Controllo aggiornamenti...</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="47"/>
         <source>Open Kimai instance</source>
-        <translation type="unfinished">Apri istanza Kimai</translation>
+        <translation>Apri istanza Kimai</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="48"/>
         <source>Activities</source>
-        <translation type="unfinished">Attività</translation>
+        <translation>Attività</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="49"/>
         <source>Tasks</source>
-        <translation type="unfinished">Compito</translation>
+        <translation>Compito</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="50"/>
         <source>Refresh cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiorna cache</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="51"/>
         <source>About Kemai</source>
-        <translation type="unfinished"></translation>
+        <translation>Circa Kemai</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="52"/>
         <source>Show logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizza logs</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="83"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;File</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="88"/>
         <source>&amp;Profile</source>
-        <translation type="unfinished">&amp;Profilo</translation>
+        <translation>&amp;Profilo</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="92"/>
         <source>&amp;View</source>
-        <translation type="unfinished">&amp;Vista</translation>
+        <translation>&amp;Vista</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="96"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aiuto</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="105"/>
         <source>About Qt</source>
-        <translation type="unfinished">Su Qt</translation>
+        <translation>Circa Qt</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="136"/>
         <location filename="../../gui/mainWindow.cpp" line="228"/>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Non connesso</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="458"/>
         <source>New version available</source>
-        <translation type="unfinished">Nuova versione disponibile</translation>
+        <translation>Nuova versione disponibile</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="458"/>
         <source>Version %1 is available.
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>E&apos; ora disponibile la versione %1.
+
+%2</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="480"/>
         <source>No update</source>
-        <translation type="unfinished">Nessun aggiornamento</translation>
+        <translation>Nessun aggiornamento</translation>
     </message>
     <message>
         <location filename="../../gui/mainWindow.cpp" line="480"/>
         <source>%1 is latest version.</source>
-        <translation type="unfinished">%1 è l&apos;ultima versione.</translation>
+        <translation>%1 è l&apos;ultima versione.</translation>
     </message>
 </context>
 <context>
@@ -492,12 +495,12 @@
     <message>
         <location filename="../../gui/settingsDialog.cpp" line="67"/>
         <source>Language changed. Application restart is required.</source>
-        <translation type="unfinished">Lingua cambiata. Riavvio applicazione necessario.</translation>
+        <translation>Lingua cambiata. Riavvio applicazione necessario.</translation>
     </message>
     <message>
         <location filename="../../gui/settingsDialog.cpp" line="189"/>
         <source>Connected to Kimai %1</source>
-        <translation type="unfinished">Connesso a Kimai %1</translation>
+        <translation>Connesso a Kimai %1</translation>
     </message>
 </context>
 </TS>
